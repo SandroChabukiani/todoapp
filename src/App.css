@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bill {
+  font-size: 25px;
+  color: rgb(104, 99, 99);
+}
+input {
+  margin-top: 2%;
+  margin-top: 3%;
+  width: 80%;
+  height: 10%;
+  background-color: rgb(238, 241, 244);
+  border: none;
+  border-radius: 25px;
+  padding-left: 25px;
+  font-size: 25px;
+}
+button {
+  border: none;
+  font-family: monospace;
+  margin: 4%;
+  padding: 2%;
+  width: 23%;
+  height: auto;
+  background-color: #043147;
+  color: white;
+  font-size: 30px;
+  border-radius: 10px;
+  transition: 0.5s;
+  font-weight: bolder;
+}
+button:hover {
+  background-color: #1991b5;
+  color: #03212f;
+}
+.tetri {
+  padding: 5% 0;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 15px;
+  background-color: white;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pirveli {
+  width: 30%;
+  height: 80%;
+}
+.meore {
+  width: 50%;
+  height: 80%;
+  background-color: #124057;
+  border-radius: 15px;
+}
+.h {
+  font-size: 25px;
+  color: rgb(160, 63, 63);
+}
+.pat {
+  height: 100%;
+}
+.didi {
+  margin-top: 10%;
+  height: 100%;
+}
+.divider {
+  padding: 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tip {
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+  color: whitesmoke;
+}
+.spani {
+  font-size: 20px;
+  color: #97c2de;
+}
+.per {
+  font-family: monospace;
+  font-size: 75px;
+  color: rgb(113, 155, 210);
+}
+@media (max-width: 942px) {
+  .tetri {
+    flex-direction: column;
+  }
+  .pirveli {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .meore {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .per {
+    font-size: 50px;
+  }
+}
+@media (max-width: 350px) {
+  .tip {
+    font-size: 20px;
+  }
+  .per {
+    font-size: 35px;
+  }
+}
+@media (max-width: 295px) {
+  .tip {
+    font-size: 15px;
+  }
+  .per {
+    font-size: 27px;
+  }
+}
